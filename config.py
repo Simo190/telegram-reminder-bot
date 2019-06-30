@@ -16,7 +16,7 @@ database_temp_time_storage = 'temp_time_storage'
 database_schedules_file = 'schedules.db'
 
 # Language of bot. Look into "lang" folder for more
-lang = ru
+lang = en # Set new language in English - Previous was ru Simo190
 
 
 # So-called "VIP" users' IDs (can have more than 5 notes at once)
