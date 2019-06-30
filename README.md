@@ -1,9 +1,9 @@
 
 # Trivia
-[Reminder bot] allows you to set date, time and text to be sent at that time. 
+Reminder bot allows you to set date, time and text to be sent at that time. 
 
 ## Under the hood
-[Reminder bot] uses Linux ["__at__"](http://linux.die.net/man/1/at) command to schedule one-time operations (f.ex. send message to user). This is the main feature of Reminder bot: even if bot itself stops because of exception, all scheduled messages are controlled by Linux and 99,9% will be sent in time.  
+Reminder bot uses Linux ["__at__"](http://linux.die.net/man/1/at) command to schedule one-time operations (f.ex. send message to user). This is the main feature of Reminder bot: even if bot itself stops because of exception, all scheduled messages are controlled by Linux and 99,9% will be sent in time.  
 
 ## Features
 * All scheduled messages are controlled by Linux itself.
@@ -17,7 +17,7 @@
 - Python 3  
 - [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI/) by @eternoir - the most awesome Telegram Python API I've seen
 - Set "export LC_ALL=en_US.UTF-8" via Shell (or start bot from __start_clean.sh__ or __start_normal.sh__ )
-
+- Before to give the start with the .sh file - remember to type: chmod +x start_clean.sh and chmod +x start_normal.sh
 ## TODO:
 - View/Remove currenly set reminders
 - Add attachments to reminders
